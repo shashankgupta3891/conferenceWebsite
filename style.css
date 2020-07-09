@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-items{
+    padding: 15px;
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#logo{
+    font-size: 30px;
+    color: yellow;
+}
+
+.main-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/722708/seats-orange-congress-empty-722708.jpeg?cs=srgb&dl=photo-of-orange-chairs-722708.jpg&fm=jpg');
+}
+
+.main-board-center-box{
+    height: 80%;
+    width: 75%;
+    color:white;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-board-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.main-board-col1{
+    display: flex;
+    flex-grow: 1;
+}
+
+.main-board-col2{
+    display: flex;
+    flex-grow: 6;
+    align-items: center;
+}
+
+
+.main-board-col1-p1{
+    font-size: 30px;
+}
+
+.main-board-col1-p2{
+    font-size: 40px;
+}
+.main-board-col1-p3{
+    font-size: 80px;
+}
+
+.main-board-button{
+    padding: 15px;
+    border-radius: 30px;
+    
+    border-width: 1px;
+    width: 100%;
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.main-board-button-1{
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+.main-board-button-2{
+    border-color: yellow;
+    background-color: yellow;
+    color: black;
+}
+
+.main-board-col2>p{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.main-board-col2-spl{
+    color: yellow;
+}
+
+#sub-heading{
+    font-size: 20px;
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+}
+
