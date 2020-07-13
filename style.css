@@ -152,10 +152,27 @@ body{
 
 .content-heading{
     
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: bold;
     text-align: center;
 }
+
+.content-center>h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.content-center>p, .content-center>ul>li{
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.1rem;
+    /* padding-top: 30px;
+    padding-bottom: 10px; */
+}
+
 .italic{
     font-style: italic;
 }
