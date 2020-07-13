@@ -9,7 +9,10 @@ body{
 
 .nav {
     display: flex;
-    background-color: black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #2b2b2b;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -22,6 +25,9 @@ body{
     text-decoration: none;
     font-weight: bold;
 }
+.nav-items:hover{
+    color:red;
+}
 
 #logo{
     font-size: 30px;
@@ -32,7 +38,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 80vh;
     width: 100%;
     background-image: url('https://images.pexels.com/photos/722708/seats-orange-congress-empty-722708.jpeg?cs=srgb&dl=photo-of-orange-chairs-722708.jpg&fm=jpg');
 }
@@ -78,7 +84,7 @@ body{
 .main-board-button{
     padding: 15px;
     border-radius: 30px;
-    
+    border: solid;
     border-width: 1px;
     width: 100%;
     background-color: black;
@@ -90,15 +96,29 @@ body{
 }
 
 .main-board-button-1{
+    
     border-color: black;
     background-color: black;
     color: white;
 }
 
+.main-board-button-1:hover{
+    border-color: black;
+    background-color: transparent;
+    color: black;
+}
+
+
+
 .main-board-button-2{
     border-color: yellow;
     background-color: yellow;
     color: black;
+}
+.main-board-button-2:hover{
+    border-color: yellow;
+    background-color: transparent;
+    color: yellow;
 }
 
 .main-board-col2>p{
@@ -115,7 +135,46 @@ body{
 }
 
 .content{
-    height: 100vh;
+
+    /* height: 100vh; */
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
     width: 100%;
+   
 }
 
+.content-center{
+    width: 80%;
+    padding: 50px 0;
+}
+
+.content-heading{
+    
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.italic{
+    font-style: italic;
+}
+
+footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #2b2b2b;
+}
+
+footer>div{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    height: 80%;
+    width: 80%;
+    color: yellow;
+}
