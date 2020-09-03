@@ -2,8 +2,31 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
 
 }
+
+
 
 body {
     font-family: 'Open Sans';
@@ -84,7 +107,7 @@ body {
 
 #logo {
     font-size: 30px;
-    color: yellow;
+    color: var(--yellow);
 }
 
 .main-board {
@@ -158,15 +181,15 @@ body {
 
 .main-board-button-1 {
 
-    border-color: black;
-    background-color: black;
+    border-color: var(--dark);
+    background-color: var(--dark);
     color: white;
 }
 
 .main-board-button-1:hover {
-    border-color: black;
+    border-color: var(--dark);
     background-color: transparent;
-    color: black;
+    color: white;
 }
 
 
@@ -242,6 +265,7 @@ body {
 .content-center>p,
 .content-center>ul,
 ol>li {
+    color: var(--dark);
     /* font-weight: bold; */
     font-size: 1.1rem;
     line-height: 2.1rem;
@@ -265,7 +289,8 @@ footer {
     justify-content: center;
     align-items: center;
     height: 10vh;
-    background-color: #2b2b2b;
+    background: linear-gradient(to left,#0F2027,#203A43,#2C5364);
+    /* background:linear-gradient(to left, #373B44,#4286f4) */
 }
 
 footer>div {
@@ -275,7 +300,7 @@ footer>div {
     font-weight: bold;
     height: 80%;
     width: 80%;
-    color: yellow;
+    color:yellow;
     justify-content: center;
 
 }
@@ -297,7 +322,8 @@ body {
 nav {
     position: sticky;
     top: 0px;
-    background: black;
+    /* background: var(--dark); */
+    background: linear-gradient(to left,#0F2027,#203A43,#2C5364);
     min-height: 80px;
     width: 100%;
     user-select: none;
@@ -402,7 +428,9 @@ a:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #2c3e50;
+        /* background: var(--gray-dark); */
+        background: linear-gradient(to left,#0f0c29,#302b63,#2C5364);
+        /* opacity: 98%; */
         top: 80px;
         left: -100%;
         text-align: center;
@@ -462,6 +490,7 @@ a:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
+        /* background:var(--gray-dark); */
         background: #2c3e50;
         top: 80px;
         left: -100%;
