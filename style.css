@@ -291,6 +291,10 @@ ol>li {
     font-style: italic;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 #conference-li {
 
     font-size: 1.6rem;
