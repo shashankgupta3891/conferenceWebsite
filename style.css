@@ -104,6 +104,7 @@ body {
     color: #f8f9fa;
 
 }
+
 /* 
 #logo {
      background-color: whitesmoke;
@@ -219,7 +220,8 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
-.main-board-col2>a{
+
+.main-board-col2>a {
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -291,7 +293,7 @@ ol>li {
     font-style: italic;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
@@ -306,7 +308,7 @@ footer {
     justify-content: center;
     align-items: center;
     height: 10vh;
-    background: linear-gradient(to left,#0F2027,#203A43,#2C5364);
+    background: linear-gradient(to left, #0F2027, #203A43, #2C5364);
     /* background:linear-gradient(to left, #373B44,#4286f4) */
 }
 
@@ -317,7 +319,7 @@ footer>div {
     font-weight: bold;
     height: 80%;
     width: 80%;
-    color:yellow;
+    color: yellow;
     justify-content: center;
 
 }
@@ -340,7 +342,7 @@ nav {
     position: sticky;
     top: 0px;
     /* background: var(--dark); */
-    background: linear-gradient(to left,#0F2027,#203A43,#2C5364);
+    background: linear-gradient(to left, #0F2027, #203A43, #2C5364);
     min-height: 80px;
     width: 100%;
     user-select: none;
@@ -367,7 +369,7 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     padding: 6px 10px;
     border-radius: 3px;
     text-transform: uppercase;
@@ -392,6 +394,29 @@ a:hover {
 #check {
     display: none;
 }
+
+.table{
+    color: white;
+
+    border-radius: 1rem;
+    width: 100%;
+    text-align: center;
+    background-color: var(--gray);
+    overflow: hidden;
+    border-spacing: 0.05rem;
+}
+
+
+
+.table tr th{
+    background-color: var(--gray-dark);
+    /* height: 3rem; */
+    padding: 0.7rem;
+    border-color: var(--gray);
+    border-width: 0.1rem;
+}
+
+
 
 @media (max-width: 1300px) {
     .nav2 {
@@ -457,7 +482,7 @@ a:hover {
     }
 
     nav ul li {
-        display: block;
+        display: block; 
         margin: 40px 0;
         line-height: 30px;
     }
@@ -496,6 +521,7 @@ a:hover {
         font-size: 2.4rem;
         text-align: center;
     }
+
     .content-center {
         width: 80%;
         padding: 50px 0;
@@ -540,4 +566,27 @@ a:hover {
     #check:checked~ul {
         left: 0;
     }
+
+}
+
+@media (max-width:400px){
+
+    .main-board-col2>a{
+        font-size: 0.9rem;
+    }
+
+    .content-center>h1 {
+        font-size: 2.5rem;
+    }
+
+    .content-center>h2 {
+
+        font-size: 1.5rem;
+       
+    }
+
+    .table{
+        font-size: 80%;
+    }
+
 }

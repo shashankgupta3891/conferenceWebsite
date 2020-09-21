@@ -14,8 +14,8 @@ if (pathName.includes('committee')) {
 } else if (pathName.includes('dates')) {
     document.getElementById("dates").className += 'active '
 
-} else if (pathName.includes('call-for-papers')) {
-    document.getElementById("call-for-papers").className += 'active '
+} else if (pathName.includes('payment')) {
+    document.getElementById("payment").className += 'active '
 
 } else if (pathName.includes('submission')) {
     document.getElementById("submission").className += 'active '
