@@ -31,10 +31,6 @@ if (pathName.includes('committee')) {
 
 }
 
-
-
-
-
 console.log(window.location.pathname)
 
 
